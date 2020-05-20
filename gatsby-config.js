@@ -20,7 +20,6 @@ module.exports = {
         fonts: ["Roboto Mono"],
       },
     },
-    "gatsby-plugin-twitter",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
