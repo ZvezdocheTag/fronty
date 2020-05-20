@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "fronty",
-    description: "Vitaly Yastremsky",
+    description: "Brent Jackson",
     siteUrl: "https://fronty.ru",
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-4603832-6",
+        trackingId: "",
       },
     },
     {
