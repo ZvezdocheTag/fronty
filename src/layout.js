@@ -237,7 +237,7 @@ export default (props) => {
             About
           </Styled.a>
           <div sx={{ mx: "auto" }} />
-          <div sx={{ my: 2 }}>© 2020 Vitaly Yastremsky</div>
+          <div sx={{ my: 2 }}>© 2020 Brent Jackson</div>
         </div>
       </footer>
     </div>
