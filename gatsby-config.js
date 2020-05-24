@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "fronty",
-    description: "Brent Jackson",
+    description: "Vitaly Yastremsky",
     siteUrl: "https://fronty.ru",
   },
   plugins: [

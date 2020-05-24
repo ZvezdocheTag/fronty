@@ -15,7 +15,7 @@ const Page = (props) => {
       props.data,
       "post.excerpt",
       get(props, "pageContext.frontmatter.excerpt")
-    ) || "The writing of Brent Jackson";
+    ) || "The writing of Vitaly Yastremsky";
 
   if (postTitle) {
     title = `${postTitle} | ${title}`;
@@ -45,7 +45,7 @@ const Page = (props) => {
         <meta name="og:description" content={description} />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:creator" content="Brent Jackson" />
+        <meta name="twitter:creator" content="Vitaly Yastremsky" />
         <meta name="twitter:card" content="summary" />
       </Helmet>
       <Layout {...props}>{props.children}</Layout>

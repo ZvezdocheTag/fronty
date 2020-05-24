@@ -112,8 +112,7 @@ export default (props) => {
             mr: 3,
           }}
         >
-          <Avatar size={32} sx={{ mr: 2 }} />
-          fronty
+          Fronty
         </Styled.a>
         <Styled.a
           as={Link}
@@ -161,24 +160,22 @@ export default (props) => {
       <footer
         sx={{
           px: 3,
-          py: 5,
+          pb: 5,
           width: "100%",
           maxWidth: "wide",
           mx: "auto",
+          display: "flex",
+          justifyContent: "space-between",
         }}
       >
         <div
           sx={{
-            py: 4,
             display: "flex",
-            justifyContent: "center",
+            justifyContent: "flex-start",
           }}
         >
-          <Link to="/avatar" title="About the avatar">
-            <Avatar size={40} />
-          </Link>
           <a
-            href="https://twitter.com/fronty"
+            href="https://twitter.com/Zvezdocheteg"
             title="Twitter"
             sx={{
               variant: "styles.navitem",
@@ -189,7 +186,7 @@ export default (props) => {
             <Twitter size={24} />
           </a>
           <a
-            href="https://github.com/fronty"
+            href="https://github.com/ZvezdocheTag"
             title="GitHub"
             sx={{
               variant: "styles.navitem",
@@ -200,44 +197,11 @@ export default (props) => {
         </div>
         <div
           sx={{
-            display: "flex",
-            flexWrap: "wrap",
             alignItems: "center",
             fontSize: 0,
           }}
         >
-          <Styled.a
-            as={Link}
-            to="/"
-            sx={{
-              variant: "styles.navitem",
-              mr: 3,
-            }}
-          >
-            fronty
-          </Styled.a>
-          <Styled.a
-            as={Link}
-            to="/blog"
-            sx={{
-              variant: "styles.navitem",
-              mr: 3,
-            }}
-          >
-            Blog
-          </Styled.a>
-          <Styled.a
-            as={Link}
-            to="/about"
-            sx={{
-              variant: "styles.navitem",
-              mr: 4,
-            }}
-          >
-            About
-          </Styled.a>
-          <div sx={{ mx: "auto" }} />
-          <div sx={{ my: 2 }}>© 2020 Brent Jackson</div>
+          © 2020 Vitaly Yastremsky
         </div>
       </footer>
     </div>

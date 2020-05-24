@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
+import { jsx } from "theme-ui";
 
-export const Banner = props =>
+export const Banner = (props) => (
   <div
     sx={{
       pb: [4, 5, 6],
-      fontWeight: 'bold',
+      fontWeight: "bold",
       ul: {
-        listStyle: 'none',
-        display: 'flex',
+        listStyle: "none",
+        display: "flex",
         p: 0,
         m: 0,
       },
@@ -16,66 +16,74 @@ export const Banner = props =>
         mr: 3,
       },
       a: {
-        color: 'inherit',
-        textDecoration: 'none',
-      }
-    }}>
+        color: "inherit",
+        textDecoration: "none",
+      },
+    }}
+  >
     {props.children}
   </div>
+);
 
-export const Container = ({ wide, ...props }) =>
+export const Container = ({ wide, ...props }) => (
   <div
     sx={{
-      maxWidth: wide ? 'wide' : 'container',
-    }}>
+      maxWidth: wide ? "wide" : "container",
+    }}
+  >
     {props.children}
   </div>
+);
 
-export const Tiles = props =>
+export const Tiles = (props) => (
   <div
     sx={{
       ul: {
-        listStyle: 'none',
+        listStyle: "none",
         p: 0,
         m: 0,
-        display: 'grid',
+        display: "grid",
         gridGap: 4,
-        gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
+        gridTemplateColumns: "repeat(auto-fit, minmax(256px, 1fr))",
       },
       h2: {
         fontSize: 2,
       },
       img: {
-        display: 'block',
+        display: "block",
         width: 128,
-        maxWidth: '100%',
-        height: 'auto',
-        m: 'auto',
+        maxWidth: "100%",
+        height: "auto",
+        m: "auto",
       },
       a: {
-        variant: 'styles.navlink',
+        variant: "styles.navlink",
       },
-      ...props.sx
-    }}>
+      ...props.sx,
+    }}
+  >
     {props.children}
   </div>
+);
 
-export const List = props =>
+export const List = (props) => (
   <div
     sx={{
       ul: {
         p: 0,
         m: 0,
-        listStyle: 'none',
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
+        listStyle: "none",
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(256px, 1fr))",
         gridGap: 4,
       },
       a: {
-        variant: 'styles.navlink',
-        fontWeight: 'bold',
+        variant: "styles.navlink",
+        fontWeight: "bold",
       },
-      ...props.sx
-    }}>
+      ...props.sx,
+    }}
+  >
     {props.children}
   </div>
+);
