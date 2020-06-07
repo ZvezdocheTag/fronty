@@ -87,3 +87,18 @@ export const List = (props) => (
     {props.children}
   </div>
 );
+
+export const ImgWrapper = (props) => (
+  <div
+    sx={{
+      img: {
+        p: 0,
+        m: 0,
+        width: props.width || "100%",
+      },
+      ...props.sx,
+    }}
+  >
+    {props.children}
+  </div>
+);
