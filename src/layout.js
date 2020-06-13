@@ -99,6 +99,7 @@ export default (props) => {
           alignItems: "center",
           maxWidth: "wide",
           mx: "auto",
+          zIndex: 3,
           px: 3,
           py: 4,
         }}
@@ -133,6 +134,7 @@ export default (props) => {
           width: "100%",
           maxWidth: "wide",
           px: 3,
+          zIndex: 2,
           mx: "auto",
           flex: "1 1 auto",
         }}

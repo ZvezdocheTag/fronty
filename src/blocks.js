@@ -102,3 +102,21 @@ export const ImgWrapper = (props) => (
     {props.children}
   </div>
 );
+
+export const HomeBg = (props) => (
+  <div
+    sx={{
+      position: "absolute",
+      top: 0,
+      right: 0,
+      img: {
+        p: 0,
+        m: 0,
+        width: "100%",
+      },
+      ...props.sx,
+    }}
+  >
+    {props.children}
+  </div>
+);
