@@ -48,7 +48,7 @@ const Page = (props) => {
         <meta name="twitter:creator" content="Vitaly Yastremsky" />
         <meta name="twitter:card" content="summary" />
       </Helmet>
-      <Layout {...props}>{props.children}</Layout>
+      <Layout {...props}>DEMO</Layout>
     </>
   );
 };
