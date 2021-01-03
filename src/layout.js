@@ -163,6 +163,7 @@ export default (props) => {
         sx={{
           px: 3,
           pb: 5,
+          pt: 5,
           width: "100%",
           maxWidth: "wide",
           mx: "auto",

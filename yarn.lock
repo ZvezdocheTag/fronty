@@ -2438,7 +2438,7 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-boxen@^3.0.0, boxen@^3.1.0:
+boxen@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-3.2.0.tgz#fbdff0de93636ab4450886b6ff45b92d098f45eb"
   integrity sha512-cU4J/+NodM3IHdSL2yN8bqYqnmlBTidDR4RC7nJs61ZmtGz8VZzM3HLQX0zY5mrSmPtR3xWwsq2jOUQqFZN8+A==
@@ -5268,13 +5268,6 @@ gatsby-plugin-theme-ui@^0.3.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-theme-ui/-/gatsby-plugin-theme-ui-0.3.0.tgz#ab84216536ae45abe09a6edf24156b9dbf50d6a5"
   integrity sha512-Q2tS8EeYMy7AAtt6hvDtEsd1uwrLMjkDNqabyXhAo38AFoWQ0oKtq9u1YqbiRvp1TK06pAMPQQ3to48LAqc9Cw==
 
-gatsby-plugin-twitter@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-2.3.1.tgz#7ce10ae9c70dd312d87621bb82673241b508b489"
-  integrity sha512-KTcxn/7QpzkC7mvW3lmxLKrMKlMlv/zLcl4D8l4r4OQay3xZOjR7Kdj5P1UZ9bSsTPXD2L5l2ubp6gE+gIuRYQ==
-  dependencies:
-    "@babel/runtime" "^7.9.6"
-
 gatsby-plugin-typescript@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.4.2.tgz#bad76d645bec2945c84f47df79d97df86cd6c018"
@@ -7198,14 +7191,6 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
   dependencies:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
-
-jxnblk@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/jxnblk/-/jxnblk-1.4.1.tgz#5915e92a27ff6e3a21ede1513309a5317138c50e"
-  integrity sha512-joBLtXxMj73cRBoMWpA+gU+6f5pQAuRC89dcWf2pbQp6a/KUWEr4E7XI/Op/2bKAXshKVcl4XRyWwF4Lu6/Bug==
-  dependencies:
-    boxen "^3.1.0"
-    chalk "^2.4.2"
 
 keyv@3.0.0:
   version "3.0.0"
