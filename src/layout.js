@@ -204,7 +204,7 @@ export default (props) => {
             fontSize: 0,
           }}
         >
-          © 2020 Vitaly Yastremsky
+          © 2022 Vitaly Yastremsky
         </div>
       </footer>
     </div>
